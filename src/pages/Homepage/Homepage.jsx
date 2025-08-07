@@ -6,7 +6,7 @@ import SingleCategory from '../../components/SingleCategory/SingleCategory';
 import { useSelector, useDispatch } from 'react-redux';
 import { fetchProducts } from '../../store/productSlice';
 import { fetchCategories, fetchProductsByCategory } from '../../store/categorySlice';
-import "./HomePage.scss";
+import "./Homepage.scss";
 
 const HomePage = () => {
   const dispatch = useDispatch();
