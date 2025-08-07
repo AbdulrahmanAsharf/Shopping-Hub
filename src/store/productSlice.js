@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import { createSlice } from "@reduxjs/toolkit";
-import { BASE_URL } from "../utils/apiUrl"; 
+import { BASE_URL } from "../utils/apiurl"; 
 import { STATUS } from "../utils/status";
 
 const productSlice = createSlice({
