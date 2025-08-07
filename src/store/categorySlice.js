@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import { createSlice } from "@reduxjs/toolkit";
-import { BASE_URL } from "../utils/apiURL";
+import { BASE_URL } from "../utils/api";
 import { STATUS } from "../utils/status";
 
 const categorySlice = createSlice({
