@@ -8,7 +8,7 @@ import { fetchProducts } from '../../store/productSlice';
 import { fetchCategories, fetchProductsByCategory } from '../../store/categorySlice';
 import "./Homepage.scss";
 
-const HomePage = () => {
+const Homepage = () => {
   const dispatch = useDispatch();
   const {data: categories, status: categoryStatus} = useSelector((state) => state.category);
   const {data: products, status: productStatus} = useSelector((state) => state.product);
@@ -37,4 +37,4 @@ const HomePage = () => {
   )
 }
 
-export default HomePage;
+export default Homepage;
