@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import {useEffect} from 'react';
 import "./CartPage.scss";
 import { useSelector, useDispatch } from 'react-redux';
 import {Link} from "react-router-dom";

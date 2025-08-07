@@ -1,4 +1,5 @@
-@import "../../App.scss";
+
+@use "../../App.scss" as *;
 
 .category-items{
     row-gap: 20px;

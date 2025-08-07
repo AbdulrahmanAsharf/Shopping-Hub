@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import  {useEffect} from 'react';
 import Slider from '../../components/Slider/Slider';
 import Category from '../../components/Category/Category';
 import ProductList from '../../components/ProductList/ProductList';

@@ -1,4 +1,5 @@
-import React from 'react';
+/* eslint-disable react/prop-types */
+
 import { STATUS } from "../../utils/status";
 import "./Category.scss";
 import {Link} from "react-router-dom";

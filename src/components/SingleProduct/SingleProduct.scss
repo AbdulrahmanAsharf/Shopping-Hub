@@ -1,4 +1,7 @@
-@import "../../App.scss";
+@use "sass:color";
+
+@use "../../App.scss" as *;
+
 .overlay-bg{
     position: fixed;
     top: 0;
@@ -67,7 +70,8 @@
                         height: 32px;
 
                         &:hover{
-                            color: darken($clr-light-blue, 10%);
+                            color: color.adjust($clr-light-blue, $lightness: -10%);
+
                         }
                     }
 

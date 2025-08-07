@@ -1,4 +1,4 @@
-import React from 'react';
+
 import {error} from "../../utils/images";
 const Error = () => {
     return (
